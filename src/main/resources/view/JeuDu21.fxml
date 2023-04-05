@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="753.0" prefWidth="1009.0" styleClass="arrierePlan" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="329.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="titre" text="Bienvenue au" wrappingWidth="329.212890625" />
+      <Text layoutX="273.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="titre" text="Jeu du 21 à 4 joueurs" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="424.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/banquier.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="152.0" layoutY="198.0" text="Joueur 1" />
+      <Label layoutX="773.0" layoutY="198.0" text="Joueur 2" />
+      <Label layoutX="773.0" layoutY="446.0" text="Joueur 4" />
+      <Label layoutX="152.0" layoutY="446.0" text="Joueur 3" />
+      <Button layoutX="357.0" layoutY="621.0" mnemonicParsing="false" text="Demander une carte" />
+      <Button layoutX="580.0" layoutY="621.0" mnemonicParsing="false" text="Conserver le jeu" />
+      <TextField layoutX="235.0" layoutY="673.0" prefHeight="52.0" prefWidth="598.0" />
+   </children>
+</AnchorPane>

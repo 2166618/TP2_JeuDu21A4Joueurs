@@ -1,0 +1,19 @@
+
+.arrierePlan
+{
+	-fx-background-color: #006075;
+}
+
+.titre
+{
+	-fx-font-size: 50px;
+	-fx-font-family: Papyrus; 
+	-fx-fill: #FFFFFF;
+	-fx-text-alignment: center;
+}
+
+Label
+{
+	-fx-font-size: 25px;
+	-fx-text-fill: #FFFFFF;
+}
